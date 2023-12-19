@@ -22,6 +22,7 @@ import com.mad.foodie.componets.HeadingText
 import com.mad.foodie.componets.MyTextField
 
 import com.mad.foodie.componets.NormalText
+import com.mad.foodie.componets.PasswordMyTextField
 import com.mad.foodie.componets.UnderLinedNormalText
 import com.mad.foodie.navigation.AuthAppRouter
 import com.mad.foodie.navigation.Screen
@@ -42,17 +43,17 @@ fun LoginScreen(){
             NormalText(value = stringResource(id = R.string.login))
             HeadingText(value = stringResource(id = R.string.welcome))
 
-            MyTextField(labelValue = stringResource(id = R.string.email_name),
-                painterResource ( id = R.drawable.accounts))
-
-            MyTextField(labelValue = stringResource(id = R.string.password),
-                painterResource ( id = R.drawable.padlock))
-
-            Spacer(modifier = Modifier.height(40.dp))
-            UnderLinedNormalText(value = stringResource(id = R.string.forgot))
-
-            Spacer(modifier = Modifier.height(40.dp))
-            ButtonComponent(value = stringResource(id = R.string.login))
+//            MyTextField(labelValue = stringResource(id = R.string.email_name),
+//                painterResource ( id = R.drawable.accounts))
+//
+//            PasswordMyTextField(labelValue = stringResource(id = R.string.password),
+//                painterResource ( id = R.drawable.padlock))
+//
+//            Spacer(modifier = Modifier.height(40.dp))
+//            UnderLinedNormalText(value = stringResource(id = R.string.forgot))
+//
+//            Spacer(modifier = Modifier.height(40.dp))
+//            ButtonComponent(value = stringResource(id = R.string.login))
 
             Spacer(modifier = Modifier.height(20.dp))
             DividerTextComponent()
