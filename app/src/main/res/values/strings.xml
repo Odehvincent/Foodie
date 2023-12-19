@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Foodie</string>
+    <string name="hello">Welcome to the Tus - FOODIE app</string>
+    <string name="create">Sign Up</string>
+    <string name="name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_name">Student Email</string>
+    <string name="password">Password</string>
+    <string name="hide_password">Hide password</string>
+    <string name="show_password">Hide password</string>
+    <string name="accept">By continuing you accept our Privacy Policy and Term of Use</string>
+    <string name="accepts">Your details will only be used for this project only and deleted after.</string>
+    <string name="okay">Register</string>
+    <string name="or">or</string>
+    <string name="Already_have">Already have an account? Login</string>
+    <string name="login">Login</string>
+    <string name="welcome">Welcome Back</string>
+    <string name="forgot">Forgot your password</string>
+
+</resources>
